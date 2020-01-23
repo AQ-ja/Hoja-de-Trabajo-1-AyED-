@@ -313,7 +313,7 @@ public class HDT1 extends javax.swing.JFrame {
         //BotÃ³n de anterior
         float emisora;
         emisora = radio.anterior(Float.parseFloat(jLabel1.getText()));
-        jLabel1.setText(String.format("%.1f",emisora));//(Float.toString(emisora));
+        jLabel1.setText((Float.toString(emisora)));
 
     }                                        
 
