@@ -396,7 +396,7 @@ public class HDT1 extends javax.swing.JFrame {
         //Boton de siguiente
         float emisora;
         emisora = radio.siguiente(Float.parseFloat(jLabel1.getText()));
-        jLabel1.setText(Float.toString(emisora));;
+        jLabel1.setText(Float.toString("%.2f",emisora));;
     }                                        
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
